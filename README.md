@@ -1,1 +1,3 @@
-# petri
+# Petri Social Networking
+
+In progress...
