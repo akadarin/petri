@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `petri` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `petri`;
 -- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: petri
@@ -53,7 +55,6 @@ DROP TABLE IF EXISTS `setor`;
 CREATE TABLE `setor` (
   `idsetor` int(11) NOT NULL AUTO_INCREMENT,
   `setor` varchar(45) DEFAULT NULL,
-  `stc` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`idsetor`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -76,13 +77,14 @@ DROP TABLE IF EXISTS `usuario`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `usuario` (
   `idusuario` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(45) DEFAULT NULL,
-  `login` varchar(45) DEFAULT NULL,
-  `tipo` varchar(45) DEFAULT NULL,
+  `nome` varchar(45) NOT NULL,
+  `sobrenome` varchar(45) DEFAULT NULL,
   `senha` varchar(45) DEFAULT NULL,
-  `setor_idsetor` int(11) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `tel_fixo` varchar(45) DEFAULT NULL,
+  `celular` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`idusuario`),
-  UNIQUE KEY `login_UNIQUE` (`login`)
+  UNIQUE KEY `email_UNIQUE` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -104,4 +106,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-04 13:06:58
+-- Dump completed on 2020-06-04 16:36:39
