@@ -22,6 +22,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Perfil</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registrar.php">Registrar</a>
+                </li>
             </ul>
         </div>
         <div class="col-md-2">

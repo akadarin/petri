@@ -15,7 +15,7 @@
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-body">
-                        <div class="h5">@LeeCross</div>
+                        <div class="h5">@Ricardinho</div>
                         <div class="h7 text-muted">Fullname : Miracles Lee Cross</div>
                         <div class="h7">Developer of web applications, JavaScript, PHP, Java, Python, Ruby, Java,
                             Node.js,
@@ -102,7 +102,7 @@
                                     <a href=""><img class="rounded-circle" width="45" src="https://picsum.photos/50/50" alt=""></a>
                                 </div>
                                 <div class="ml-2">
-                                    <div class="h5 m-0">@LeeCross</div>
+                                    <div class="h5 m-0">@Werle</div>
                                     <div class="h7 text-muted">Miracles Lee Cross</div>
                                 </div>
                             </div>
@@ -153,7 +153,7 @@
                                     <img class="rounded-circle" width="45" src="https://picsum.photos/50/50" alt="">
                                 </div>
                                 <div class="ml-2">
-                                    <div class="h5 m-0">@LeeCross</div>
+                                    <div class="h5 m-0">@Ricardinho</div>
                                     <div class="h7 text-muted">Miracles Lee Cross</div>
                                 </div>
                             </div>
@@ -219,7 +219,7 @@
                                     <img class="rounded-circle" width="45" src="https://picsum.photos/50/50" alt="">
                                 </div>
                                 <div class="ml-2">
-                                    <div class="h5 m-0">@LeeCross</div>
+                                    <div class="h5 m-0">@Thoma</div>
                                     <div class="h7 text-muted">Miracles Lee Cross</div>
                                 </div>
                             </div>

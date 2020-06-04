@@ -2,8 +2,28 @@
     background-color: rgb(128, 101, 252);
 }
 
+.bg-lpurple{
+    background-color: rgb(144, 122, 247);
+}
+
+.bg-lgray{
+    background-color: #edeef0;
+}
+
 .txt-white {
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.txt-black{
+    color: rgb(0, 0, 0);
+}
+
+.txt-purple{
+    color: rgb(128, 101, 252);
+}
+
+.big-lt{
+    font-size: 1.7rem;
 }
 
 .input {
@@ -16,4 +36,34 @@
 
 .rounded-border{
     border-radius: 0.7rem;
+}
+
+.separador-maior{
+    border-color: rgb(128, 101, 252);
+    border-width: 0.3rem;
+    border-radius: 1rem;
+    width: 80%;
+}
+
+.border-rounded{
+    border-radius: 0.9rem;
+}
+
+.border-left-radius{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+.border-rounded-input{
+    border-radius: 0.9rem;
+}
+
+.input-border-purple{
+    border-color: rgb(144, 122, 247);
+}
+
+.no-hover{
+    text-decoration: none;
 }
