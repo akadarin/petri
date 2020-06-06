@@ -1,5 +1,5 @@
 <footer>
-    <div class="row m-auto w-100 bg-purple txt-white pt-5 p-3">
+    <div class="row m-auto w-100 bg-purple txt-white pt-5 p-3 position-relative">
         <div class="col-md-2">
 
         </div>
